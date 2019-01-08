@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="bbc" time="56" tests="1" failures="0" errors="0">
+   <testsuite name="bbc" tests="1" failures="0" errors="0" time="56" timestamp="2019-01-07 06:39:34" hostname="user - DESKTOP-3JHPPTI" id="Test Suites/efc/bbc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\bbc\\20190107_063930"/>
+         <property name="logFiles" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\bbc\\20190107_063930\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-3JHPPTI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="64f09879537a6af2f4153b45d14fb5d8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Bcc/BbcHomePageHeaders" classname="Test Cases/Bcc/BbcHomePageHeaders" status="PASSED">
+         <system-out><![CDATA[2019-01-07 06:39:35 - [TEST_CASE][PASSED] - Test Cases/Bcc/BbcHomePageHeaders: Test Cases/Bcc/BbcHomePageHeaders
+
+2019-01-07 06:39:36 - [TEST_STEP][PASSED] - openBrowser(applicationUrl): Browser is opened with url: 'https://www.bbc.co.uk/'
+
+2019-01-07 06:39:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-07 06:39:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-07 06:39:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.bbc.co.uk/'
+
+2019-01-07 06:39:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-07 06:39:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-07 06:39:46 - [TEST_STEP][PASSED] - waitForPageLoad(timeOut): Wait for page load successfully
+
+2019-01-07 06:39:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-07 06:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Bbc/News")): Object: 'Object Repository/Bbc/News' is clicked on
+
+2019-01-07 06:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Bbc/News' is clicked on
+
+2019-01-07 06:39:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Bbc/NewLogo"), timeOut): Object 'Object Repository/Bbc/NewLogo' is visible
+
+2019-01-07 06:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/Bbc/NewLogo' is visible
+
+2019-01-07 06:39:48 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-01-07 06:39:49 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-01-07 06:39:49 - [TEST_STEP][PASSED] - click(findTestObject("Bbc/Sport")): Object: 'Object Repository/Bbc/Sport' is clicked on
+
+2019-01-07 06:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Bbc/Sport' is clicked on
+
+2019-01-07 06:39:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Bbc/SportLogo"), timeOut): Object 'Object Repository/Bbc/SportLogo' is visible
+
+2019-01-07 06:39:51 - [MESSAGE][PASSED] - Object 'Object Repository/Bbc/SportLogo' is visible
+
+2019-01-07 06:39:51 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-01-07 06:39:51 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-01-07 06:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Bbc/Weather")): Object: 'Object Repository/Bbc/Weather' is clicked on
+
+2019-01-07 06:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Bbc/Weather' is clicked on
+
+2019-01-07 06:39:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Bbc/WeatherLogo"), timeOut): Web element with id: 'Object Repository/Bbc/WeatherLogo' located by 'By.xpath: //*[@id = '.wr-c-weather-logo [focusable]']' not found
+
+2019-01-07 06:40:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = '.wr-c-weather-logo [focusable]']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-07 06:40:24 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Bbc/WeatherLogo' located by 'By.xpath: //*[@id = '.wr-c-weather-logo [focusable]']' not found
+
+2019-01-07 06:40:24 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-01-07 06:40:25 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-01-07 06:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Bbc/iPlayer")): Object: 'Object Repository/Bbc/iPlayer' is clicked on
+
+2019-01-07 06:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Bbc/iPlayer' is clicked on
+
+2019-01-07 06:40:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Bbc/iPlayerLogo"), timeOut): Object 'Object Repository/Bbc/iPlayerLogo' is visible
+
+2019-01-07 06:40:27 - [MESSAGE][PASSED] - Object 'Object Repository/Bbc/iPlayerLogo' is visible
+
+2019-01-07 06:40:27 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-01-07 06:40:28 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-01-07 06:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Bbc/Sound")): Object: 'Object Repository/Bbc/Sound' is clicked on
+
+2019-01-07 06:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Bbc/Sound' is clicked on
+
+2019-01-07 06:40:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Bbc/SoundLogo"), timeOut): Object 'Object Repository/Bbc/SoundLogo' is visible
+
+2019-01-07 06:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/Bbc/SoundLogo' is visible
+
+2019-01-07 06:40:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-07 06:40:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-07 06:39:34 - [TEST_SUITE][PASSED] - bbc: Test Cases/Bcc/BbcHomePageHeaders]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+bbc,Chrome 71.0.3578.98,,2019-01-06 17:34:09,2019-01-06 17:34:49,39.831s,FAILED
+,,,,,,
+Test Cases/Bcc/BbcHomePageHeaders,Chrome 71.0.3578.98,This test is to verify the headers of bbc homepage,2019-01-06 17:34:10,2019-01-06 17:34:48,38.251s,FAILED
+openBrowser(baseUrl),Chrome 71.0.3578.98,,2019-01-06 17:34:10,2019-01-06 17:34:16,5.201s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-06 17:34:16,2019-01-06 17:34:17,1.185s,PASSED
+waitForPageLoad(timeOut),Chrome 71.0.3578.98,,2019-01-06 17:34:17,2019-01-06 17:34:17,0.107s,PASSED
+"click(findTestObject(""Bbc/News""))",Chrome 71.0.3578.98,,2019-01-06 17:34:17,2019-01-06 17:34:48,31.149s,FAILED

@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestSuite,Chrome 71.0.3578.98,,2019-01-07 06:40:34,2019-01-07 06:41:27,53.146s,PASSED
+,,,,,,
+Test Cases/UserLogin/Login,Chrome 71.0.3578.98,This test case is to verify user login,2019-01-07 06:40:34,2019-01-07 06:41:02,27.815s,PASSED
+openBrowser(applicationUrl),Chrome 71.0.3578.98,,2019-01-07 06:40:35,2019-01-07 06:40:45,10.890s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-07 06:40:45,2019-01-07 06:40:47,1.173s,PASSED
+waitForPageLoad(timeOut),Chrome 71.0.3578.98,,2019-01-07 06:40:47,2019-01-07 06:40:47,0.475s,PASSED
+"waitForElementVisible(findTestObject(""Efc/EfcLoginPage/EfcLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:40:47,2019-01-07 06:40:48,0.555s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/SearchButton""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:40:48,2019-01-07 06:40:48,0.427s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginButton""))",Chrome 71.0.3578.98,,2019-01-07 06:40:48,2019-01-07 06:40:52,3.613s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/UserName""))",Chrome 71.0.3578.98,,2019-01-07 06:40:52,2019-01-07 06:40:52,0.121s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/UserName""), username)",Chrome 71.0.3578.98,,2019-01-07 06:40:52,2019-01-07 06:40:52,0.255s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/Password""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-07 06:40:52,2019-01-07 06:40:52,0.123s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/Password""), password)",Chrome 71.0.3578.98,,2019-01-07 06:40:52,2019-01-07 06:40:52,0.117s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginLink""))",Chrome 71.0.3578.98,,2019-01-07 06:40:52,2019-01-07 06:40:57,4.338s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/WelcomeMessage""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:40:57,2019-01-07 06:40:57,0.034s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/ProfileLink""))",Chrome 71.0.3578.98,,2019-01-07 06:40:57,2019-01-07 06:40:57,0.246s,PASSED
+"scrollToElement(findTestObject(""Efc/EfcLoginPage/Logout""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:40:57,2019-01-07 06:40:57,0.123s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/Logout""))",Chrome 71.0.3578.98,,2019-01-07 06:40:57,2019-01-07 06:41:01,3.799s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 71.0.3578.98,,2019-01-07 06:41:01,2019-01-07 06:41:02,0.935s,PASSED
+,,,,,,
+Test Cases/UserLogin/LoginWithParameterization,Chrome 71.0.3578.98,This test case is to verify user login,2019-01-07 06:41:02,2019-01-07 06:41:27,24.933s,PASSED
+openBrowser(applicationUrl),Chrome 71.0.3578.98,,2019-01-07 06:41:02,2019-01-07 06:41:11,9.180s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-07 06:41:11,2019-01-07 06:41:12,1.127s,PASSED
+waitForPageLoad(timeOut),Chrome 71.0.3578.98,,2019-01-07 06:41:12,2019-01-07 06:41:12,0.054s,PASSED
+"waitForElementVisible(findTestObject(""Efc/EfcLoginPage/EfcLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:41:12,2019-01-07 06:41:13,0.361s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/SearchButton""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:41:13,2019-01-07 06:41:13,0.030s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginButton""))",Chrome 71.0.3578.98,,2019-01-07 06:41:13,2019-01-07 06:41:16,3.089s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/UserName""))",Chrome 71.0.3578.98,,2019-01-07 06:41:16,2019-01-07 06:41:16,0.087s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/UserName""), findTestData(""UserData/New Test Data"").getValue(1, 1))",Chrome 71.0.3578.98,,2019-01-07 06:41:16,2019-01-07 06:41:17,0.586s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/Password""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-07 06:41:17,2019-01-07 06:41:17,0.063s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/Password""), findTestData(""UserData/New Test Data"").getValue(2, 1))",Chrome 71.0.3578.98,,2019-01-07 06:41:17,2019-01-07 06:41:17,0.094s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginLink""))",Chrome 71.0.3578.98,,2019-01-07 06:41:17,2019-01-07 06:41:21,4.354s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/WelcomeMessage""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:41:21,2019-01-07 06:41:21,0.054s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/ProfileLink""))",Chrome 71.0.3578.98,,2019-01-07 06:41:21,2019-01-07 06:41:21,0.240s,PASSED
+"scrollToElement(findTestObject(""Efc/EfcLoginPage/Logout""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:41:21,2019-01-07 06:41:22,0.073s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/Logout""))",Chrome 71.0.3578.98,,2019-01-07 06:41:22,2019-01-07 06:41:26,4.353s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 71.0.3578.98,,2019-01-07 06:41:26,2019-01-07 06:41:27,0.887s,PASSED

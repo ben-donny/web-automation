@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestSuite,,,2019-01-06 17:49:52,2019-01-06 17:49:55,2.408s,ERROR
+,,,,,,
+Test Cases/UserLogin/Login,,This test case is to verify user login,2019-01-06 17:49:53,2019-01-06 17:49:54,1.097s,ERROR
+openBrowser(baseUrl),,,2019-01-06 17:49:54,2019-01-06 17:49:54,0.040s,ERROR
+,,,,,,
+Test Cases/UserLogin/LoginWithParameterization,,This test case is to verify user login,2019-01-06 17:49:54,2019-01-06 17:49:55,0.516s,ERROR
+openBrowser(baseUrl),,,2019-01-06 17:49:55,2019-01-06 17:49:55,0.006s,ERROR

@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTestSuite" time="75" tests="0" failures="2" errors="0">
+   <testsuite name="LoginTestSuite" tests="0" failures="2" errors="0" time="75" timestamp="2019-01-06 16:32:02" hostname="user - DESKTOP-3JHPPTI" id="Test Suites/efc/LoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190106_163159"/>
+         <property name="logFiles" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190106_163159\\execution0.log"/>
+         <property name="attachments" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190106_163159\\1546792358034.png, C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190106_163159\\1546792394500.png"/>
+         <property name="hostName" value="user - DESKTOP-3JHPPTI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 64.0"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="dc82c15d-cee8-4853-8661-8be817af9888"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UserLogin/Login" classname="Test Cases/UserLogin/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UserLogin/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;default&quot; href=&quot;https://www.efinancialcareers.co.uk/logout&quot;> is not clickable at point (1085,22.600006103515625) because another element &lt;div class=&quot;loading-spinner&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-06 16:32:03 - [TEST_CASE][FAILED] - Test Cases/UserLogin/Login: Test Cases/UserLogin/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)
+
+
+2019-01-06 16:32:03 - [TEST_STEP][PASSED] - openBrowser(applicationUrl): Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-06 16:32:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-06 16:32:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-06 16:32:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-06 16:32:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-06 16:32:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-06 16:32:25 - [TEST_STEP][PASSED] - waitForPageLoad(timeOut): Wait for page load successfully
+
+2019-01-06 16:32:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-06 16:32:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Efc/EfcLoginPage/EfcLogo"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-06 16:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-06 16:32:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/SearchButton"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-06 16:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-06 16:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginButton")): Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-06 16:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-06 16:32:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/UserName")): Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-06 16:32:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-06 16:32:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/UserName"), username): Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-06 16:32:29 - [MESSAGE][PASSED] - Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-06 16:32:29 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/Password"), STOP_ON_FAILURE): Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-06 16:32:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-06 16:32:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/Password"), password): Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-06 16:32:29 - [MESSAGE][PASSED] - Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-06 16:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginLink")): Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-06 16:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-06 16:32:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/WelcomeMessage"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-06 16:32:35 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-06 16:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/ProfileLink")): Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-06 16:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-06 16:32:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Efc/EfcLoginPage/Logout"), timeOut): Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-06 16:32:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-06 16:32:37 - [TEST_STEP][FAILED] - click(findTestObject("Efc/EfcLoginPage/Logout")): click(findTestObject("Efc/EfcLoginPage/Logout")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)
+
+
+2019-01-06 16:32:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+[[ATTACHMENT|C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190106_163159\\1546792358034.png]]
+
+2019-01-06 16:32:38 - [MESSAGE][FAILED] - click(findTestObject("Efc/EfcLoginPage/Logout")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-06 16:32:03 - [TEST_CASE][FAILED] - Test Cases/UserLogin/Login: Test Cases/UserLogin/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserLogin/LoginWithParameterization" classname="Test Cases/UserLogin/LoginWithParameterization" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UserLogin/LoginWithParameterization FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;default&quot; href=&quot;https://www.efinancialcareers.co.uk/logout&quot;> is not clickable at point (1085,22.600006103515625) because another element &lt;div class=&quot;loading-spinner&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12300, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc82c15d-cee8-4853-8661-8be817af9888)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at LoginWithParameterization.run(LoginWithParameterization:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-06 16:32:38 - [TEST_CASE][FAILED] - Test Cases/UserLogin/LoginWithParameterization: Test Cases/UserLogin/LoginWithParameterization FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12300, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc82c15d-cee8-4853-8661-8be817af9888)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at LoginWithParameterization.run(LoginWithParameterization:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)
+
+
+2019-01-06 16:32:38 - [TEST_STEP][PASSED] - openBrowser(applicationUrl): Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-06 16:32:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-06 16:32:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-01-06 16:32:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-06 16:32:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-06 16:33:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-06 16:33:02 - [TEST_STEP][PASSED] - waitForPageLoad(timeOut): Wait for page load successfully
+
+2019-01-06 16:33:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-06 16:33:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Efc/EfcLoginPage/EfcLogo"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-06 16:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-06 16:33:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/SearchButton"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-06 16:33:03 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-06 16:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginButton")): Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-06 16:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-06 16:33:06 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/UserName")): Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-06 16:33:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-06 16:33:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/UserName"), findTestData("UserData/New Test Data").getValue(1, 1)): Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-06 16:33:06 - [MESSAGE][PASSED] - Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-06 16:33:06 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/Password"), STOP_ON_FAILURE): Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-06 16:33:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-06 16:33:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/Password"), findTestData("UserData/New Test Data").getValue(2, 1)): Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-06 16:33:06 - [MESSAGE][PASSED] - Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-06 16:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginLink")): Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-06 16:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-06 16:33:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/WelcomeMessage"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-06 16:33:11 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-06 16:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/ProfileLink")): Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-06 16:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-06 16:33:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Efc/EfcLoginPage/Logout"), timeOut): Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-06 16:33:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-06 16:33:14 - [TEST_STEP][FAILED] - click(findTestObject("Efc/EfcLoginPage/Logout")): click(findTestObject("Efc/EfcLoginPage/Logout")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12300, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc82c15d-cee8-4853-8661-8be817af9888)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at LoginWithParameterization.run(LoginWithParameterization:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)
+
+
+2019-01-06 16:33:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12300, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc82c15d-cee8-4853-8661-8be817af9888)
+[[ATTACHMENT|C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190106_163159\\1546792394500.png]]
+
+2019-01-06 16:33:14 - [MESSAGE][FAILED] - click(findTestObject("Efc/EfcLoginPage/Logout")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12300, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc82c15d-cee8-4853-8661-8be817af9888)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at LoginWithParameterization.run(LoginWithParameterization:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-06 16:32:38 - [TEST_CASE][FAILED] - Test Cases/UserLogin/LoginWithParameterization: Test Cases/UserLogin/LoginWithParameterization FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12300, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc82c15d-cee8-4853-8661-8be817af9888)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at LoginWithParameterization.run(LoginWithParameterization:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-06 16:32:02 - [TEST_SUITE][FAILED] - LoginTestSuite: Test Cases/UserLogin/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-06 16:32:02 - [TEST_SUITE][FAILED] - LoginTestSuite: Test Cases/UserLogin/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Efc/EfcLoginPage/Logout' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a class="default" href="https://www.efinancialcareers.co.uk/logout"> is not clickable at point (1085,22.600006103515625) because another element <div class="loading-spinner"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-3JHPPTI', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\user\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: da61e9c9-837b-462e-8502-ec7e29b2bc64)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Login.run(Login:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546792319376.run(TempTestSuite1546792319376.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

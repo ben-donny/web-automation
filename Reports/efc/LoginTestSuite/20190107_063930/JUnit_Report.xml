@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginTestSuite" time="53" tests="2" failures="0" errors="0">
+   <testsuite name="LoginTestSuite" tests="2" failures="0" errors="0" time="53" timestamp="2019-01-07 06:40:34" hostname="user - DESKTOP-3JHPPTI" id="Test Suites/efc/LoginTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190107_063930"/>
+         <property name="logFiles" value="C:\\WorkSpace\\kalatonstudioproject\\efcrecordandplayback\\Reports\\efc\\LoginTestSuite\\20190107_063930\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-3JHPPTI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.7"/>
+         <property name="sessionId" value="8449b6c715ebf50c3dfa5f8acaabde75"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UserLogin/Login" classname="Test Cases/UserLogin/Login" status="PASSED">
+         <system-out><![CDATA[2019-01-07 06:40:34 - [TEST_CASE][PASSED] - Test Cases/UserLogin/Login: Test Cases/UserLogin/Login
+
+2019-01-07 06:40:35 - [TEST_STEP][PASSED] - openBrowser(applicationUrl): Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-07 06:40:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-07 06:40:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-07 06:40:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-07 06:40:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-07 06:40:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-07 06:40:47 - [TEST_STEP][PASSED] - waitForPageLoad(timeOut): Wait for page load successfully
+
+2019-01-07 06:40:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-07 06:40:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Efc/EfcLoginPage/EfcLogo"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-07 06:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-07 06:40:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/SearchButton"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-07 06:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-07 06:40:48 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginButton")): Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-07 06:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-07 06:40:52 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/UserName")): Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-07 06:40:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-07 06:40:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/UserName"), username): Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-07 06:40:52 - [MESSAGE][PASSED] - Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-07 06:40:52 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/Password"), STOP_ON_FAILURE): Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-07 06:40:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-07 06:40:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/Password"), password): Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-07 06:40:52 - [MESSAGE][PASSED] - Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-07 06:40:52 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginLink")): Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-07 06:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-07 06:40:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/WelcomeMessage"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-07 06:40:57 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-07 06:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/ProfileLink")): Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-07 06:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-07 06:40:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Efc/EfcLoginPage/Logout"), timeOut): Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-07 06:40:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-07 06:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/Logout")): Object: 'Object Repository/Efc/EfcLoginPage/Logout' is clicked on
+
+2019-01-07 06:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/Logout' is clicked on
+
+2019-01-07 06:41:01 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-01-07 06:41:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UserLogin/LoginWithParameterization" classname="Test Cases/UserLogin/LoginWithParameterization" status="PASSED">
+         <system-out><![CDATA[2019-01-07 06:41:02 - [TEST_CASE][PASSED] - Test Cases/UserLogin/LoginWithParameterization: Test Cases/UserLogin/LoginWithParameterization
+
+2019-01-07 06:41:02 - [TEST_STEP][PASSED] - openBrowser(applicationUrl): Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-07 06:41:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-07 06:41:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.efinancialcareers.co.uk'
+
+2019-01-07 06:41:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-07 06:41:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-07 06:41:12 - [TEST_STEP][PASSED] - waitForPageLoad(timeOut): Wait for page load successfully
+
+2019-01-07 06:41:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-07 06:41:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Efc/EfcLoginPage/EfcLogo"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-07 06:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/EfcLogo' is visible
+
+2019-01-07 06:41:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/SearchButton"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-07 06:41:13 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/SearchButton' is present
+
+2019-01-07 06:41:13 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginButton")): Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-07 06:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginButton' is clicked on
+
+2019-01-07 06:41:16 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/UserName")): Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-07 06:41:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/UserName' is cleared
+
+2019-01-07 06:41:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/UserName"), findTestData("UserData/New Test Data").getValue(1, 1)): Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-07 06:41:17 - [MESSAGE][PASSED] - Keys 'ben.doni@outlook.com' sent to object: 'Object Repository/Efc/EfcLoginPage/UserName'
+
+2019-01-07 06:41:17 - [TEST_STEP][PASSED] - clearText(findTestObject("Efc/EfcLoginPage/Password"), STOP_ON_FAILURE): Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-07 06:41:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Efc/EfcLoginPage/Password' is cleared
+
+2019-01-07 06:41:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Efc/EfcLoginPage/Password"), findTestData("UserData/New Test Data").getValue(2, 1)): Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-07 06:41:17 - [MESSAGE][PASSED] - Keys 'testing123' sent to object: 'Object Repository/Efc/EfcLoginPage/Password'
+
+2019-01-07 06:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/LoginLink")): Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-07 06:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/LoginLink' is clicked on
+
+2019-01-07 06:41:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Efc/EfcLoginPage/WelcomeMessage"), timeOut): Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-07 06:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/Efc/EfcLoginPage/WelcomeMessage' is present
+
+2019-01-07 06:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/ProfileLink")): Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-07 06:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/ProfileLink' is clicked on
+
+2019-01-07 06:41:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Efc/EfcLoginPage/Logout"), timeOut): Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-07 06:41:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Efc/EfcLoginPage/Logout' successfully
+
+2019-01-07 06:41:22 - [TEST_STEP][PASSED] - click(findTestObject("Efc/EfcLoginPage/Logout")): Object: 'Object Repository/Efc/EfcLoginPage/Logout' is clicked on
+
+2019-01-07 06:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Efc/EfcLoginPage/Logout' is clicked on
+
+2019-01-07 06:41:26 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-01-07 06:41:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-07 06:40:34 - [TEST_SUITE][PASSED] - LoginTestSuite: Test Cases/UserLogin/LoginWithParameterization]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

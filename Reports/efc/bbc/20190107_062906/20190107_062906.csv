@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+bbc,,,2019-01-07 06:29:10,2019-01-07 06:29:12,1.930s,ERROR
+,,,,,,
+Test Cases/Bcc/BbcHomePageHeaders,,This test is to verify the headers of bbc homepage,2019-01-07 06:29:10,2019-01-07 06:29:11,1.163s,ERROR
+openBrowser(baseUrl),,,2019-01-07 06:29:11,2019-01-07 06:29:11,0.051s,ERROR

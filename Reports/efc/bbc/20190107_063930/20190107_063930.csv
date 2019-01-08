@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+bbc,Chrome 71.0.3578.98,,2019-01-07 06:39:34,2019-01-07 06:40:31,56.579s,PASSED
+,,,,,,
+Test Cases/Bcc/BbcHomePageHeaders,Chrome 71.0.3578.98,This test is to verify the headers of bbc homepage,2019-01-07 06:39:35,2019-01-07 06:40:31,56.158s,PASSED
+openBrowser(applicationUrl),Chrome 71.0.3578.98,,2019-01-07 06:39:36,2019-01-07 06:39:44,8.820s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-07 06:39:44,2019-01-07 06:39:46,1.182s,PASSED
+waitForPageLoad(timeOut),Chrome 71.0.3578.98,,2019-01-07 06:39:46,2019-01-07 06:39:46,0.215s,PASSED
+"click(findTestObject(""Bbc/News""))",Chrome 71.0.3578.98,,2019-01-07 06:39:46,2019-01-07 06:39:48,1.746s,PASSED
+"waitForElementVisible(findTestObject(""Bbc/NewLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:39:48,2019-01-07 06:39:48,0.250s,PASSED
+back(),Chrome 71.0.3578.98,,2019-01-07 06:39:48,2019-01-07 06:39:49,1.082s,PASSED
+"click(findTestObject(""Bbc/Sport""))",Chrome 71.0.3578.98,,2019-01-07 06:39:49,2019-01-07 06:39:50,1.609s,PASSED
+"waitForElementVisible(findTestObject(""Bbc/SportLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:39:50,2019-01-07 06:39:51,0.129s,PASSED
+back(),Chrome 71.0.3578.98,,2019-01-07 06:39:51,2019-01-07 06:39:51,0.352s,PASSED
+"click(findTestObject(""Bbc/Weather""))",Chrome 71.0.3578.98,,2019-01-07 06:39:51,2019-01-07 06:39:53,1.953s,PASSED
+"waitForElementVisible(findTestObject(""Bbc/WeatherLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:39:53,2019-01-07 06:40:24,30.873s,PASSED
+back(),Chrome 71.0.3578.98,,2019-01-07 06:40:24,2019-01-07 06:40:25,0.864s,PASSED
+"click(findTestObject(""Bbc/iPlayer""))",Chrome 71.0.3578.98,,2019-01-07 06:40:25,2019-01-07 06:40:27,2.377s,PASSED
+"waitForElementVisible(findTestObject(""Bbc/iPlayerLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:40:27,2019-01-07 06:40:27,0.143s,PASSED
+back(),Chrome 71.0.3578.98,,2019-01-07 06:40:27,2019-01-07 06:40:28,0.497s,PASSED
+"click(findTestObject(""Bbc/Sound""))",Chrome 71.0.3578.98,,2019-01-07 06:40:28,2019-01-07 06:40:30,2.240s,PASSED
+"waitForElementVisible(findTestObject(""Bbc/SoundLogo""), timeOut)",Chrome 71.0.3578.98,,2019-01-07 06:40:30,2019-01-07 06:40:30,0.105s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-07 06:40:30,2019-01-07 06:40:31,0.951s,PASSED

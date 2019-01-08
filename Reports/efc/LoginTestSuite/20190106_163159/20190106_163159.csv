@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginTestSuite,Firefox 64.0,,2019-01-06 16:32:02,2019-01-06 16:33:17,1m - 15.498s,FAILED
+,,,,,,
+Test Cases/UserLogin/Login,Firefox 64.0,This test case is to verify user login,2019-01-06 16:32:03,2019-01-06 16:32:38,35.454s,FAILED
+openBrowser(applicationUrl),Firefox 64.0,,2019-01-06 16:32:03,2019-01-06 16:32:21,18.183s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-01-06 16:32:21,2019-01-06 16:32:25,3.557s,PASSED
+waitForPageLoad(timeOut),Firefox 64.0,,2019-01-06 16:32:25,2019-01-06 16:32:25,0.172s,PASSED
+"waitForElementVisible(findTestObject(""Efc/EfcLoginPage/EfcLogo""), timeOut)",Firefox 64.0,,2019-01-06 16:32:25,2019-01-06 16:32:25,0.227s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/SearchButton""), timeOut)",Firefox 64.0,,2019-01-06 16:32:25,2019-01-06 16:32:25,0.143s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginButton""))",Firefox 64.0,,2019-01-06 16:32:25,2019-01-06 16:32:29,3.338s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/UserName""))",Firefox 64.0,,2019-01-06 16:32:29,2019-01-06 16:32:29,0.115s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/UserName""), username)",Firefox 64.0,,2019-01-06 16:32:29,2019-01-06 16:32:29,0.185s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/Password""), STOP_ON_FAILURE)",Firefox 64.0,,2019-01-06 16:32:29,2019-01-06 16:32:29,0.071s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/Password""), password)",Firefox 64.0,,2019-01-06 16:32:29,2019-01-06 16:32:29,0.059s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginLink""))",Firefox 64.0,,2019-01-06 16:32:29,2019-01-06 16:32:35,5.469s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/WelcomeMessage""), timeOut)",Firefox 64.0,,2019-01-06 16:32:35,2019-01-06 16:32:35,0.153s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/ProfileLink""))",Firefox 64.0,,2019-01-06 16:32:35,2019-01-06 16:32:36,1.206s,PASSED
+"scrollToElement(findTestObject(""Efc/EfcLoginPage/Logout""), timeOut)",Firefox 64.0,,2019-01-06 16:32:36,2019-01-06 16:32:37,1.355s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/Logout""))",Firefox 64.0,,2019-01-06 16:32:37,2019-01-06 16:32:38,0.609s,FAILED
+,,,,,,
+Test Cases/UserLogin/LoginWithParameterization,Firefox 64.0,This test case is to verify user login,2019-01-06 16:32:38,2019-01-06 16:33:14,36.257s,FAILED
+openBrowser(applicationUrl),Firefox 64.0,,2019-01-06 16:32:38,2019-01-06 16:32:59,20.528s,PASSED
+maximizeWindow(),Firefox 64.0,,2019-01-06 16:32:59,2019-01-06 16:33:02,3.512s,PASSED
+waitForPageLoad(timeOut),Firefox 64.0,,2019-01-06 16:33:02,2019-01-06 16:33:03,0.005s,PASSED
+"waitForElementVisible(findTestObject(""Efc/EfcLoginPage/EfcLogo""), timeOut)",Firefox 64.0,,2019-01-06 16:33:03,2019-01-06 16:33:03,0.153s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/SearchButton""), timeOut)",Firefox 64.0,,2019-01-06 16:33:03,2019-01-06 16:33:03,0.021s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginButton""))",Firefox 64.0,,2019-01-06 16:33:03,2019-01-06 16:33:06,2.941s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/UserName""))",Firefox 64.0,,2019-01-06 16:33:06,2019-01-06 16:33:06,0.115s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/UserName""), findTestData(""UserData/New Test Data"").getValue(1, 1))",Firefox 64.0,,2019-01-06 16:33:06,2019-01-06 16:33:06,0.644s,PASSED
+"clearText(findTestObject(""Efc/EfcLoginPage/Password""), STOP_ON_FAILURE)",Firefox 64.0,,2019-01-06 16:33:06,2019-01-06 16:33:06,0.050s,PASSED
+"sendKeys(findTestObject(""Efc/EfcLoginPage/Password""), findTestData(""UserData/New Test Data"").getValue(2, 1))",Firefox 64.0,,2019-01-06 16:33:06,2019-01-06 16:33:06,0.068s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/LoginLink""))",Firefox 64.0,,2019-01-06 16:33:06,2019-01-06 16:33:11,4.711s,PASSED
+"verifyElementPresent(findTestObject(""Efc/EfcLoginPage/WelcomeMessage""), timeOut)",Firefox 64.0,,2019-01-06 16:33:11,2019-01-06 16:33:11,0.123s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/ProfileLink""))",Firefox 64.0,,2019-01-06 16:33:11,2019-01-06 16:33:12,1.009s,PASSED
+"scrollToElement(findTestObject(""Efc/EfcLoginPage/Logout""), timeOut)",Firefox 64.0,,2019-01-06 16:33:12,2019-01-06 16:33:14,1.516s,PASSED
+"click(findTestObject(""Efc/EfcLoginPage/Logout""))",Firefox 64.0,,2019-01-06 16:33:14,2019-01-06 16:33:14,0.369s,FAILED
